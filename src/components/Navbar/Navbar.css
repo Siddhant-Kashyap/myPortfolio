@@ -1,0 +1,47 @@
+.nWrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+ }
+ .nLeft{
+    flex:1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+ }
+ .nName{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: aqua;
+ }
+ .nRight{
+    display: flex;
+    flex:1;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+
+ }
+ .nList{
+    flex:10;
+    color: aqua;
+ }
+ .nList>ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+ }
+ .nList>ul>li:hover{
+    cursor: pointer;
+    color: chocolate;
+ }
+ .nButton{
+    flex:2;
+
+ }
+ .nButton:hover{
+    background: white;
+    cursor: pointer;
+    border: 1px solid ;
+    border-color: chocolate;
+ }
