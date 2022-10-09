@@ -24,7 +24,7 @@ const Services = () => {
     </div>
     {/* right side division */}
     <div className='cards'>
-      <div style={{left:'12rem'}}>
+      <div style={{left:'18rem'}}>
         <Card
         emoji ={Heart}
         heading={'APP'}
@@ -32,18 +32,18 @@ const Services = () => {
         />
       </div>
       {/* secondcard */}
-      <div style={{top:'12rem',left:'-4rem'}}>
+      <div style={{top:'12rem'}}>
         <Card
         emoji ={Glasses}
         heading={'WEB'}
         detail={"HTML,CSS,JavaScript"}
         />
       </div>
-      <div style={{top:'20rem',left:'20rem'}}>
+      <div style={{top:'20rem',left:'30rem'}}>
         <Card
         emoji ={Humble}
-        heading={'TECH'}
-        detail={"MERN"}
+        heading={'TECHNOLOGY'}
+        detail={"MERN STACK"}
         />
       </div>
       </div>

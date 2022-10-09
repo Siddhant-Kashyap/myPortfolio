@@ -5,6 +5,7 @@ import LinkedIn  from '../../../src/icons&photo/linkedInLogo.png'
 import Photo from '../../../src/icons&photo/sid.png'
 import Floationdiv from '../FloatingDivs/Floationdiv'
 import crown from '../../../src/icons&photo/crown.png'
+import email from '../../../src/icons&photo/email.png'
 const Intro = () => {
   return (
     <div className='intro'>
@@ -18,6 +19,7 @@ const Intro = () => {
                 <div className='iIcon'>
                   <img src={Github}alt=""/>
                   <img src={LinkedIn}alt=""/>
+                  <img src={email}alt=""/>
                 </div>
                 <div></div>
         </div>
