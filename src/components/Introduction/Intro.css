@@ -68,3 +68,15 @@
     box-shadow: 4px 4px #00A4BD, 12px 7px #FF7A59, 12px 12px #334758;
 }
 
+/* @media screen and (max-width: 480px) {
+    .intro {
+      flex-direction: column;
+      gap: 7rem;
+      height: 64rem;
+    }
+}
+  
+    .iRight {
+      transform: scale(0.8);
+      left: -3rem;
+    } */
