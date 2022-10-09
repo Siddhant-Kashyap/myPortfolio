@@ -31,16 +31,40 @@
     font-size: 14px;
     margin-top: 10px;
 }
-.iRight{
-    flex: 1;
-    position:relative;
 
+.iButton{
+    width: 10rem;
+    height: 3rem;
+   
 }
-button>iButton{
-    size: 29px;
+.iButton:hover{
+    background: white;
+    cursor: pointer;
+    border: 1px solid ;
+    border-color: chocolate;
 }
 .iIcon>img{
     max-width: 50px;
     max-height: 50px;
     margin: 10px;
 }
+.iRight{
+    flex: 1;
+    position:relative;
+
+}
+.iRight>*{
+    
+        position: absolute;
+        z-index: 1;
+      
+}
+.iRight>:nth-child(1){
+    max-width: 300px;
+    max-height: 500px;
+    margin-left: 150px;
+    border: 1px solid #111547;
+    border-radius: 150px;
+    box-shadow: 4px 4px #00A4BD, 12px 7px #FF7A59, 12px 12px #334758;
+}
+

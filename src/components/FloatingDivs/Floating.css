@@ -1,0 +1,28 @@
+.floatingDiv {
+    justify-content: space-around;
+    background: rgb(170, 189, 164);
+    box-shadow:4px 4px #0b1517, 8px 7px #87e70a, 8px 8px #334758;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-left: 70px;
+   height: 100px;
+    width: 105px;
+  }
+ .floatingDiv>span{
+    font-weight: bold;
+    font-size: 20px;
+    transform: rotate(-45deg);
+    text-shadow: 0 1px 0 rgb(84, 41, 41), 0 2px 0 rgb(10, 216, 13),
+                0 3px 0 rgb(161, 54, 54), 0 4px 0 #ccc,
+                0 5px 0 #ccc, 0 6px 0 #ccc,
+                0 7px 0 #ccc, 0 8px 0 #ccc,
+                0 9px 0 #ccc, 0 10px 0 #ccc,
+                0 11px 0 #ccc, 0 12px 0 #ccc,
+                0 20px 30px rgba(0, 0, 0, 0.5);
+    
+ }
+  
+
+ 
